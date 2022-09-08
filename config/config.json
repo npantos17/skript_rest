@@ -14,17 +14,19 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "qajjxmabfhenfy",
-    "password": "076e7a5d7b0b86f2155461abfe11ce5598416592e8f14f68ca28d723be1f35b4",
-    "database": "dcnu2voe0d6i4f",
-    "host": "ec2-99-80-170-190.eu-west-1.compute.amazonaws.com ",
+    "username": "viwjgpserookeo",
+    "password": "72ce7877c4701ff620d6b0e46756ff8dd2bfcd0fcc1f3bf997c01fe57b924246",
+    "database": "d7o5ujgggh051s",
+    "host": "ec2-52-212-228-71.eu-west-1.compute.amazonaws.com",
     "port": 5432,
     "dialect": "postgres",
     "logging": false,
-    "sll": true,
+    "ssl": true,
     "dialectOptions": {
-      "require" : true,
-      "rejectUnauthorized": false
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
     }
   }
 }
