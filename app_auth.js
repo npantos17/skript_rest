@@ -6,6 +6,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
+const a = null
 
 // var corsOptions = {
 //     origin: 'http://127.0.0.1:8000',
