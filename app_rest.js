@@ -31,7 +31,7 @@ app.use(history({ index: '/index.html' }));
 app.use(staticMdl);
 
 
-app.listen({ port: 8500 }, async () => {
+app.listen({ port: process.env.PORT || 8500 }, async () => {
     await sequelize.authenticate();
     console.log("rest povezan");
 });
